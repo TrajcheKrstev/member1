@@ -2,4 +2,23 @@ baseURL = 'https://trajchekrstev.github.io/lkm-site/member1/'
 languageCode = 'en-us'
 title = 'Member 1 Hugo Site'
 theme = "member-theme"
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "https://trajchekrstev.github.io/lkm_site/" # Absolute URL to root site home
+    weight = 1
 
+  [[menu.main]]
+    name = "Members"
+    url = "https://trajchekrstev.github.io/lkm_site/about/" # Absolute URL to members list
+    weight = 2
+
+  [[menu.main]]
+    name = "Members"
+    url = "https://trajchekrstev.github.io/lkm_site/members/" # Absolute URL to members list
+    weight = 3
+
+  [[menu.main]]
+    name = "Research"
+    url = "https://trajchekrstev.github.io/lkm_site/research/" # Absolute URL to research page
+    weight = 4
