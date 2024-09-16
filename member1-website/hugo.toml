@@ -1,0 +1,5 @@
+baseURL = 'https://trajchekrstev.github.io/lkm-site/member1/'
+languageCode = 'en-us'
+title = 'Member 1 Hugo Site'
+theme = "member-theme"
+
